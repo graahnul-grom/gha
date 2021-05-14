@@ -1,0 +1,6 @@
+bin_PROGRAMS = gha
+
+gha_SOURCES = gha.c
+	
+gha_CFLAGS = $(GTK_CFLAGS) $(LIBLEPTON_CFLAGS)
+gha_LDFLAGS = $(GTK_LIBS) $(LIBLEPTON_LIBS)
