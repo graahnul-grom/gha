@@ -26,10 +26,10 @@ PKG_PROG_PKG_CONFIG
 # params: prefix, list-of-modules, action-if-found, action-if-not-found
 # prefix: for variables, e.g. prefix_CFLAGS, prefix_LIBS, etc.
 #
-PKG_CHECK_MODULES(LIBLEPTON,
-                  [liblepton >= 4.0.0],
-                  , # no action if found
-                  AC_MSG_ERROR([liblepton 4.0.0 or later is required.]))
+# PKG_CHECK_MODULES(LIBLEPTON,
+                  # [liblepton >= 4.0.0],
+                  # , # no action if found
+                  # AC_MSG_ERROR([liblepton 4.0.0 or later is required.]))
 
 PKG_CHECK_MODULES(GTK,
                   [gtk+-2.0 >= 2.24.0],
