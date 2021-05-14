@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <gtk/gtk.h>
-// #include <liblepton/liblepton.h>
+#include <liblepton/liblepton.h>
 
 int main( int argc, char* argv[] )
 {
@@ -8,7 +8,7 @@ int main( int argc, char* argv[] )
 
     gtk_init( &argc, &argv );
 
-    // EdaConfig* ctx_sys = eda_config_get_system_context();
+    EdaConfig* ctx_sys = eda_config_get_system_context();
 
     return 0;
 }
