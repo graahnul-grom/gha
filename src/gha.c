@@ -10,6 +10,15 @@ int main( int argc, char* argv[] )
 
     EdaConfig* ctx_sys = eda_config_get_system_context();
 
+    int a = 123;
+    int b = 456;
+
+    char eklmn[ 5 ] = "NULL";
+    strcpy( eklmn, *argv );
+
+    printf( " >> a: [%d]\n", a );
+    printf( " >> b: [%d]\n", b );
+
     return 0;
 }
 
