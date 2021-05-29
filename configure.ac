@@ -3,7 +3,7 @@
 AC_INIT([gha],
         [1.0.0],
         [https://github.com/graahnul-grom/gha/issues],
-        [lepton-conf],
+        [gha],
         [https://github.com/graahnul-grom/gha])
 
 # foreign: do not require README, NEWS, etc. GNU stuff
