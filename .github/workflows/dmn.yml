@@ -12,8 +12,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  # This workflow contains a single job called "build":
-  build:
+  # This workflow contains a single job called "gha-ci-job-1":
+  gha-ci-job-1:
     # "ubuntu-latest" == ubuntu-20.04 ('focal'):
     runs-on: ubuntu-latest
 
