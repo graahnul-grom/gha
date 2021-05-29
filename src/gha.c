@@ -9,6 +9,7 @@ int main( int argc, char* argv[] )
     gtk_init( &argc, &argv );
 
     EdaConfig* ctx_sys = eda_config_get_system_context();
+    eda_config_get_filename( ctx_sys );
 
     int a = 123;
     int b = 456;
