@@ -61,6 +61,7 @@ jobs:
         ./autogen.sh
         ./configure --prefix=/usr
         make
+        make distcheck
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 https://git.io/JvXDl
